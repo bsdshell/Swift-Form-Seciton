@@ -21,7 +21,7 @@ struct ContentView: View {
                     }
                 }
                 .pickerStyle(.segmented)
-
+                
                 Toggle("Enable Logging", isOn: $enableLogging)
             }
 
@@ -31,6 +31,7 @@ struct ContentView: View {
                     print("Click Save changes")
                 }
             }
+            
         }
     }
 }
